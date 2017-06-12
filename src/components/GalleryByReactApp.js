@@ -62,6 +62,7 @@ var ImgFigure = React.createClass({
 			);
 	}
 });
+//控制条组件
 var ControllerUnit = React.createClass({
     handleClick: function (e) {
         if (this.props.arrange.isCenter){
