@@ -22,6 +22,7 @@ function getRangeRandom(low, high) {
 function get30DegRandom() {
     return ((Math.random() < 0.5 ? '-' : '') + Math.ceil(Math.random() * 30));
 }
+//图片组件
 var ImgFigure = React.createClass({
     handleClick: function (e) {
         if (this.props.arrange.isCenter){
